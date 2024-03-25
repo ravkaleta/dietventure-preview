@@ -1,0 +1,9 @@
+export const strIcon = require('../assets/images/attributeIcons/strIcon.png');
+export const agiIcon = require('../assets/images/attributeIcons/agilityIcon.png');
+export const endIcon = require('../assets/images/attributeIcons/enduranceIcon.png');
+export const vitIcon = require('../assets/images/attributeIcons/vitalityIcon.png');
+export const regIcon = require('../assets/images/attributeIcons/regenerationIcon.png');
+export const perIcon = require('../assets/images/attributeIcons/perceptionIcon.png');
+export const wisIcon = require('../assets/images/attributeIcons/wisdomIcon.png');
+export const conIcon = require('../assets/images/attributeIcons/concentrationIcon.png');
+export const refIcon = require('../assets/images/attributeIcons/reflexIcon.png');

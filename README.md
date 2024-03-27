@@ -1,7 +1,8 @@
-<h1 style="text-align: center">
+<p align="center">
+    <img src="src/assets/images/AppLogo.png" width="50%" alt="App Logo">
+</p>
 
-<img src="src/assets/images/AppLogo.png" width="50%" alt="App Logo" >
-
+<h1 align="center">
 (preview version)<br/> mobile diet application with RPG elements
 </h1>
 
@@ -11,7 +12,7 @@ This is a project from university and my first mobile app created using Expo and
 
 
 
-<h2 style="text-align: center"> Diet tracking </h2>
+<h2 align="center"> Diet tracking </h2>
 
 
 
@@ -27,33 +28,40 @@ The app's **meals section** offers intuitive diet management tools, making it ea
 
 - The ability to view basic nutritional values for individual meals and the total balance for the day.
 
-<img src="previewImages/MealsScreen.png" width="80%" alt="App Logo" style="display: block; margin: 0 auto">
+<p align="center">
+    <img src="previewImages/MealsScreen.png" width="80%" alt="App Logo">
+</p>
 
 </br>
 
 An integral part of the app is the day's summary screen, which presents a detailed analysis of the nutritional values of the meals consumed.
 
-<img src="previewImages/SummaryScreen.png" width="80%" alt="App Logo" style="display: block; margin: 0 auto">
+<p align="center">
+    <img src="previewImages/SummaryScreen.png" width="80%" alt="App Logo">
+</p>
 
 
 
 
 
 
-
-<h2 style="text-align: center"> Virtual Character </h2>
+<h2 align="center"> Virtual Character </h2>
 
 Based on the body measurements entered by the user, the app creates a virtual figure to reflect the user's progress.
 
-<img src="previewImages/CharacterScreen.png" width="80%" alt="App Logo" style="display: block; margin: 0 auto">
+<p align="center">
+    <img src="previewImages/CharacterScreen.png" width="80%" alt="App Logo">
+</p>
 
-<h3 style="text-align: center"> Silhouettes </h3>
+<h3 align="center"> Silhouettes </h3>
 
 The character's silhouette is selected based on the user's gender and BMI.
 
-<img src="previewImages/silhouettes.png" width="50%" alt="App Logo" style="display: block; margin: 0 auto">
+<p align="center">
+    <img src="previewImages/silhouettes.png" width="50%" alt="App Logo">
+</p>
 
-<h3 style="text-align: center"> Attributes </h3>
+<h3 align="center"> Attributes </h3>
 
 The character's attributes are fully dependent on the user's eating habits and physical activity.
 
@@ -61,7 +69,7 @@ The character's attributes are fully dependent on the user's eating habits and p
 
 - Other attributes depend on meeting the recommended daily requirement for vitamins and minerals, where each micronutrient is linked to a corresponding attribute based on its real-world effects on the body. For example, vitamin A, known for its beneficial effects on vision and regenerative abilities, is correlated with the attributes of perception and regeneration.
 
-<h3 style="text-align: center"> Statistics </h3>
+<h3 align="center"> Statistics </h3>
 
 | Attribute | Effect |
 |---|---|
@@ -78,13 +86,15 @@ The character's attributes are fully dependent on the user's eating habits and p
 
 
 
-<h2 style="text-align: center"> Text-based Game </h2>
+<h2 align="center"> Text-based Game </h2>
 
 The final element of the app is a text-based game that allows you to send your character on journeys where he or she will encounter various challenges. The mechanism of the game is simple, making most of the action happen in the background, between sessions in the app.
 
-<img src="previewImages/GameScreen.png" width="80%" alt="App Logo" style="display: block; margin: 0 auto">
+<p align="center">
+    <img src="previewImages/GameScreen.png" width="80%" alt="App Logo">
+</p>
 
-<h3 style="text-align: center"> Health, Energy and Gold </h3>
+<h3 align="center"> Health, Energy and Gold </h3>
 
 Character loses health points during travel battles and failures in challenges. Wounds are healed between trips.
 
@@ -93,7 +103,7 @@ To run a trip, a character must have energy, which decreases on a running basis 
 Success in events rewards the user with gold, at this point it has no use yet but in the future it may be used to buy equipment or cosmetic items.
 
 
-<h3 style="text-align: center"> Events </h3>
+<h3 align="center"> Events </h3>
 
 They include challenges and battles with opponents.
 
@@ -101,6 +111,6 @@ They include challenges and battles with opponents.
 
 - **Battles**, on the other hand, are based on turn-based exchanges of blows with the opponent. Here, the damage dealt by the character, armor class, and vitality are crucial.
 
-<h2 style="text-align: center"> Database </h2>
+<h2 align="center"> Database </h2>
 
 The application uses the Food and Nutrient Database for Dietary Studies (FNDDS) from the United States Department of Agriculture (USDA), available at https://fdc.nal.usda.gov/download-datasets.html. This database has been optimized for efficiency and space minimization by removing irrelevant products and attributes and converting them to SQLite format. This customization not only simplifies complex queries to the product database, but also significantly reduces its size, which translates into application performance.
